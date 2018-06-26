@@ -1,0 +1,84 @@
+﻿ID,Time[s],CAN: Fields
+0,1.3e-05,Start of frame
+1,1.4e-05,Identifier: 0 (0x0)
+2,2.7e-05,Identifier extension bit: extended frame
+3,2.8e-05,Extended Identifier: 262016 (0x3ff80)
+4,2.8e-05,Full Identifier: 262016 (0x3ff80)
+5,2.5e-05,Substitute remote request: 0
+6,4.7e-05,Remote transmission request: data frame
+7,4.8e-05,Reserved bit 1: 0
+8,4.9e-05,Reserved bit 0: 0
+9,5e-05,Data length code: 1
+10,5.5e-05,Data byte 0: 0xf0
+11,6.4e-05,CRC sequence: 0x0000
+12,7.9e-05,CRC delimiter: 0
+13,8e-05,ACK slot: ACK
+14,8.1e-05,ACK delimiter: 0
+15,8.2e-05,End of frame
+16,9.3e-05,Start of frame
+17,9.4e-05,Identifier: 0 (0x0)
+18,0.000106,Identifier extension bit: standard frame
+19,0.000107,Reserved bit 0: 0
+20,0.000105,Remote transmission request: data frame
+21,0.000108,Data length code: 0
+22,0.000112,CRC sequence: 0x0001
+23,0.000128,CRC delimiter: 1
+24,0.000129,ACK slot: NACK
+25,0.00013,ACK delimiter: 1
+26,0.000131,End of frame
+27,0.0001396,Start of frame
+28,0.0001406,Identifier: 0 (0x0)
+29,0.0001526,Identifier extension bit: standard frame
+30,0.0001536,Reserved bit 0: 0
+31,0.0001516,Remote transmission request: data frame
+32,0.0001546,Data length code: 0
+33,0.0001586,CRC sequence: 0x0001
+34,0.0001746,CRC delimiter: 1
+35,0.0001756,ACK slot: NACK
+36,0.0001766,ACK delimiter: 1
+37,0.0001776,End of frame
+38,0.0001854,Start of frame
+39,0.0001864,Identifier: 31 (0x1f)
+40,0.0002004,Identifier extension bit: standard frame
+41,0.0002014,Reserved bit 0: 0
+42,0.0001984,Remote transmission request: remote frame
+43,0.0002024,Data length code: 0
+44,0.0002074,CRC sequence: 0x7c0f
+45,0.0002244,CRC delimiter: 1
+46,0.0002254,ACK slot: NACK
+47,0.0002274,ACK delimiter: 0
+48,0.0002284,End of frame
+49,0.000253,Start of frame
+50,0.000254,Identifier: 63 (0x3f)
+51,0.000268,Identifier extension bit: standard frame
+52,0.000269,Reserved bit 0: 0
+53,0.000267,Remote transmission request: data frame
+54,0.00027,Data length code: 0
+55,0.000274,CRC sequence: 0x03ff
+56,0.00029,CRC delimiter: 1
+57,0.000291,ACK slot: NACK
+58,0.000292,ACK delimiter: 1
+59,0.000294,End of frame
+60,0.0003008,Start of frame
+61,0.0003018,Identifier: 127 (0x7f)
+62,0.0003148,Identifier extension bit: extended frame
+63,0.0003158,Extended Identifier: 261891 (0x3ff03)
+64,0.0003158,Full Identifier: 33554179 (0x1ffff03)
+65,0.0003138,Substitute remote request: 1
+66,0.0003358,Remote transmission request: remote frame
+67,0.0003368,Reserved bit 1: 1
+68,0.0003378,Reserved bit 0: 1
+69,0.0003388,Data length code: 8
+70,0.0003438,Data byte 0: 0x00
+71,0.0003518,Data byte 1: 0x00
+72,0.0003608,Data byte 2: 0xf8
+73,0.0003698,Data byte 3: 0x1f
+74,0.0003788,Data byte 4: 0xff
+75,0.0003868,Data byte 5: 0xff
+76,0.0003948,Data byte 6: 0xff
+77,0.0004028,Data byte 7: 0xff
+78,0.0004108,CRC sequence: 0x7fff
+79,0.0004258,CRC delimiter: 1
+80,0.0004268,ACK slot: NACK
+81,0.0004278,ACK delimiter: 1
+82,0.0004288,End of frame
