@@ -3,7 +3,7 @@ A weather station needs to communicate with various sensors at some distances an
 The CAN bus is constructed with STM32F103C8T6 and PCA82C250 CAN bus driver. The STM32F103C8T6 is an cheap ARM based microcontroller with hardware CAN bus and a blue STM32F103C8T6 board can be purchased for AU$2.30 at AliExpress. This CAN bus was terminated with a 60 ohm resistor. The bus is currently operating at 1MHz. 
 
 
-### I verified the CAN bus communication protocol with a logic analyser.
+### The CAN bus communication protocol with a logic analyser.
 
 
 
